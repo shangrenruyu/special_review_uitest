@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="test" verbose="1">
+    <test name="com.yhzy">
+        <classes>
+            <class name="com.phhc.mcase.LoginCase"/>
+            <class name="com.phhc.mcase.special_review.SpecialReviewZySamplingCase"/>
+        </classes>
+    </test>
+    <test name="com.baidu">
+        <classes>
+<!--            <class name="com.baidu.TestngDemo1"></class>-->
+        </classes>
+    </test>
+</suite>
